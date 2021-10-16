@@ -1,0 +1,1 @@
+helm install kubernetes-data-science kubernetes-data-science.tgz --set service.type=NodePort
