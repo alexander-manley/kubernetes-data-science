@@ -13,3 +13,6 @@ kubectl logs -f kubernetes-data-science-xxxx-xxxx
 kubectl expose deployment kubernetes-data-science --port=8888 --name=kubernetes-data-science-http
 
 kubectl port-forward kubernetes-data-science-xxxx-xxxx 8888:8888
+
+#Login
+kubectl exec --stdin --tty kubernetes-data-science-xxxx-xxxx -- /bin/bash
