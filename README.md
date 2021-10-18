@@ -9,6 +9,8 @@ Tool Suite:
 
 ![jupyterlab](https://user-images.githubusercontent.com/4974054/137600119-bdf4c50b-d649-40cd-89c9-76f2ea596d42.jpg)
 
+![spark-kubernetes-notebook](https://user-images.githubusercontent.com/4974054/137775097-7d7eb98b-114c-4f8d-8c9a-3d849feb4ef0.jpg)
+
 ![spark-3 2-shell](https://user-images.githubusercontent.com/4974054/137662534-52214316-d289-43ad-968f-f14aa342d52d.jpg)
 
 ![kubernetes](https://user-images.githubusercontent.com/4974054/137600230-bb56dd0c-060f-4b01-b086-ed034d86c851.jpg)
