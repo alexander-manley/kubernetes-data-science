@@ -1,4 +1,5 @@
 # For the latest version of Spark: https://archive.apache.org/dist/spark/
+# Image digest: sha256:bcf9b1c7b6f85a74cf61c2970112ae1719709ab1b4a4f00dec74f8b3cf12b39f size: 4936
 ARG OWNER=jupyter
 ARG BASE_CONTAINER=$OWNER/scipy-notebook
 FROM $BASE_CONTAINER
