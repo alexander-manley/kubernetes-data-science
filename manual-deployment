@@ -11,11 +11,13 @@ kubectl get deployments
 
 kubectl get pods
 
-kubectl logs -f kubernetes-data-science-xxxx-xxxx
+kubectl logs -f kubernetes-data-science-spark-xxxx-xxxx
 
-kubectl expose deployment kubernetes-data-science --port=8888 --name=kubernetes-data-science-http
+kubectl expose deployment kubernetes-data-science-spark --port=8888 --name=kubernetes-data-science-spark-http
 
-kubectl port-forward kubernetes-data-science-xxxx-xxxx 8888:8888
+kubectl port-forward kubernetes-data-science-spark-xxxx-xxxx 8888:8888
 
-#Login
-kubectl exec --stdin --tty kubernetes-data-science-xxxx-xxxx -- /bin/bash
+#Terminal login
+kubectl exec --stdin --tty kubernetes-data-science-spark-xxxx-xxxx -- /bin/bash
+
+kubectl delete deployment kubernetes-data-science-spark-xxxx-xxxx
