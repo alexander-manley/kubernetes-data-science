@@ -1,8 +1,11 @@
 #Legacy Spark 3.1.2
 kubectl create deployment --image=jupyter/all-spark-notebook kubernetes-data-science
 
-#Spark 3.2 with Pandas API
+#Spark 3.2 with Python Pandas API
 kubectl create deployment --image=registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-containers/kubernetes-data-science:latest kubernetes-data-science
+
+#Spark 3.2 with Python Pandas API and R Statistics
+kubectl create deployment --image=registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-spark/kubernetes-data-science-spark:latest kubernetes-data-science-spark
 
 kubectl get deployments
 
