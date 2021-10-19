@@ -1,8 +1,29 @@
-- single node bare metal (nerdctl)
-- single node kubernetes (kubectl)
-- cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
+- deployment: single node bare metal (nerdctl)
+- deployment: single node kubernetes (kubectl)
+- deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
 - shared notebooks and data access/transfers
 - logging and metrics
 - timeseries analyis
 - sample data generation
 - multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
+- Dataset clean-up and type conversion
+
+Opensource Analytics (https://spark.apache.org/docs/latest/ml-statistics.html):
+- Collinearity and covariance
+- Boosting: RandomForest & XGBoost (Regressor and Classifier)
+- Extracting, transforming and selecting features
+- Classification and Regression
+- Clustering
+- Collaborative filtering
+- Frequent Pattern Mining
+- Model selection and tuning
+- Limited-memory BFGS (L-BFGS)
+- Normal equation solver for weighted least squares
+- Iteratively reweighted least squares (IRLS)
+- Clustering
+- Dimensionality reduction
+- Feature extraction and transformation
+- Frequent pattern mining
+- Evaluation metrics
+- PMML model export
+- Optimization
