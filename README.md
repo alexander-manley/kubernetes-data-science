@@ -8,7 +8,11 @@ Tool Suite:
   - R statistics
 
 Tool Suite Add-ons:
-  - Data Profiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
+  - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
+  - DataComPy: Prints out a human-readable report summarizing and sampling differences between two pandas dataframes.
+  - DataCompareR: Compare two R datasets and view a report on the similarities and differences.
+  - Rubicon-ml: Captures and stores searchable model training and execution information, like parameters and outcomes, and display them in a dashboard. 
+  - Synthetic-data: Sample data generation ( https://github.com/capitalone/synthetic-data)
 
 #
 
@@ -18,7 +22,6 @@ Tool Suite Add-ons:
 - Deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
 - Shared notebooks and data access/transfers
 - Logging and metrics
-- Sample data generation
 - Multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
 - Dataset clean-up and type conversion
 
