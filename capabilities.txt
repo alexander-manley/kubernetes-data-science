@@ -1,0 +1,8 @@
+- single node bare metal (nerdctl)
+- single node kubernetes (kubectl)
+- cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
+- shared notebooks and data access/transfers
+- logging and metrics
+- timeseries analyis
+- sample data generation
+- multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
