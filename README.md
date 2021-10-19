@@ -7,6 +7,8 @@ Tool Suite:
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+#
+
 ### Machine Learning Operations (MLOps):
 - Deployment: single node bare metal (nerdctl)
 - Deployment: single node kubernetes (kubectl)
@@ -38,6 +40,8 @@ Tool Suite:
 - PMML model export
 - Optimization
 - Timeseries collection and analyis
+
+##
 
 
 ![jupyterlab](https://user-images.githubusercontent.com/4974054/137600119-bdf4c50b-d649-40cd-89c9-76f2ea596d42.jpg)
