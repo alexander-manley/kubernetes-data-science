@@ -1,11 +1,11 @@
-- deployment: single node bare metal (nerdctl)
-- deployment: single node kubernetes (kubectl)
-- deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
-- shared notebooks and data access/transfers
-- logging and metrics
-- timeseries analyis
-- sample data generation
-- multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
+MLOps
+- Deployment: single node bare metal (nerdctl)
+- Deployment: single node kubernetes (kubectl)
+- Deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
+- Shared notebooks and data access/transfers
+- Logging and metrics
+- Sample data generation
+- Multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
 - Dataset clean-up and type conversion
 
 Opensource Analytics (https://spark.apache.org/docs/latest/ml-statistics.html):
@@ -27,3 +27,4 @@ Opensource Analytics (https://spark.apache.org/docs/latest/ml-statistics.html):
 - Evaluation metrics
 - PMML model export
 - Optimization
+- Timeseries collection and analyis
