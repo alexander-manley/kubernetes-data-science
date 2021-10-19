@@ -12,7 +12,9 @@ Tool Suite Add-ons:
   - DataComPy: Prints out a human-readable report summarizing and sampling differences between two pandas dataframes.
   - DataCompareR: Compare two R datasets and view a report on the similarities and differences.
   - Rubicon-ml: Captures and stores searchable model training and execution information, like parameters and outcomes, and display them in a dashboard. 
-  - Synthetic-data: Sample data generation ( https://github.com/capitalone/synthetic-data)
+  - Synthetic-data: Sample data generation (https://github.com/capitalone/synthetic-data)
+  - Jupyterlab templates: (https://github.com/jpmorganchase/jupyterlab_templates)
+
 
 #
 
