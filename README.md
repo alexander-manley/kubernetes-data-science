@@ -7,6 +7,39 @@ Tool Suite:
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+### Machine Learning Operations (MLOps):
+- Deployment: single node bare metal (nerdctl)
+- Deployment: single node kubernetes (kubectl)
+- Deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
+- Shared notebooks and data access/transfers
+- Logging and metrics
+- Sample data generation
+- Multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
+- Dataset clean-up and type conversion
+
+### Opensource Analytics on Apache Spark:
+(https://spark.apache.org/docs/latest/ml-statistics.html)
+- Collinearity and covariance
+- Boosting: RandomForest & XGBoost (Regressor and Classifier)
+- Extracting, transforming and selecting features
+- Classification and Regression
+- Clustering
+- Collaborative filtering
+- Frequent Pattern Mining
+- Model selection and tuning
+- Limited-memory BFGS (L-BFGS)
+- Normal equation solver for weighted least squares
+- Iteratively reweighted least squares (IRLS)
+- Clustering
+- Dimensionality reduction
+- Feature extraction and transformation
+- Frequent pattern mining
+- Evaluation metrics
+- PMML model export
+- Optimization
+- Timeseries collection and analyis
+
+
 ![jupyterlab](https://user-images.githubusercontent.com/4974054/137600119-bdf4c50b-d649-40cd-89c9-76f2ea596d42.jpg)
 
 ![spark-kubernetes-notebook](https://user-images.githubusercontent.com/4974054/137775097-7d7eb98b-114c-4f8d-8c9a-3d849feb4ef0.jpg)
