@@ -7,6 +7,9 @@ Tool Suite:
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+Tool Suite Add-ons:
+  - Data Profiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
+
 #
 
 ### Machine Learning Operations (MLOps):
