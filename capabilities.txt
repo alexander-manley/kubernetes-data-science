@@ -1,4 +1,4 @@
-MLOps
+Machine Learning Operations (MLOps):
 - Deployment: single node bare metal (nerdctl)
 - Deployment: single node kubernetes (kubectl)
 - Deployemnt: cloud service provider kuberenetes: (aws eks / kubectl), (gcloud container clusters / kubectl), (az aks / kubectl)
@@ -8,7 +8,7 @@ MLOps
 - Multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
 - Dataset clean-up and type conversion
 
-Opensource Analytics (https://spark.apache.org/docs/latest/ml-statistics.html):
+Opensource Analytics on Apache Spark (https://spark.apache.org/docs/latest/ml-statistics.html):
 - Collinearity and covariance
 - Boosting: RandomForest & XGBoost (Regressor and Classifier)
 - Extracting, transforming and selecting features
