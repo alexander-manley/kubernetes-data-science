@@ -26,6 +26,7 @@ Tool Suite Add-ons:
 - Logging and metrics
 - Multi-format data ingest (HL7, SAS, CSV, XLSX, ZIP, TXT, JSON, XML, HTML, Images, HDF, PDF, DOCX, MP3, MP4...)
 - Dataset clean-up and type conversion
+- Lifecycle management (https://github.com/mlflow/mlflow/releases)
 
 ### Opensource Analytics on Apache Spark:
 (https://spark.apache.org/docs/latest/ml-statistics.html)
@@ -48,9 +49,17 @@ Tool Suite Add-ons:
 - PMML model export
 - Optimization
 - Timeseries collection and analyis
+- Interpretability (https://github.com/interpretml/interpret/releases)
+- Dashboarding (https://github.com/apache/superset/releases)
+
+###Data layer
+- Trino (PrestoSQL) multi-source database ingest
+- Pixie Kubernetes metrics (https://docs.px.dev/installing-pixie/install-guides/self-hosted-pixie)
+- FastAPI, Django, and Flask endpoints
+- Text indexing and search (Elasticsearch) (https://github.com/opensearch-project/OpenSearch/releases)
+- ETL (https://pypi.org/project/meltano/#history)
 
 ##
-
 
 ![jupyterlab](https://user-images.githubusercontent.com/4974054/137600119-bdf4c50b-d649-40cd-89c9-76f2ea596d42.jpg)
 
