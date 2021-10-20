@@ -58,6 +58,7 @@ Tool Suite Add-ons:
 - FastAPI, Django, and Flask endpoints
 - Text indexing and search (Elasticsearch) (https://github.com/opensearch-project/OpenSearch/releases)
 - ETL (https://pypi.org/project/meltano/#history)
+- Data versioning and rollback (https://github.com/treeverse/lakeFS/releases)
 
 ##
 
