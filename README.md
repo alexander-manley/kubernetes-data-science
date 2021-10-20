@@ -57,7 +57,7 @@ Tool Suite Add-ons:
 - Pixie Kubernetes metrics (https://docs.px.dev/installing-pixie/install-guides/self-hosted-pixie)
 - FastAPI, Django, and Flask endpoints
 - Text indexing and search (Elasticsearch) (https://github.com/opensearch-project/OpenSearch/releases)
-- ETL (https://pypi.org/project/meltano/#history)
+- ETL / singer formater (https://pypi.org/project/meltano/#history)
 - External data versioning and rollback (https://github.com/treeverse/lakeFS/releases)
 - Spark versioning and rollback (https://github.com/delta-io/delta/releases)
 
