@@ -1,5 +1,4 @@
-#Golang installer:
-Invoke-WebRequest -Uri "https://get-win.k3ai.in" -OutFile k3ai.zip
+#Golang CLI Binary: https://github.com/kf5i/k3ai-core/releases
 Expand-Archive -Path .\k3ai.zip
 .\k3ai.exe -h
 
