@@ -1,13 +1,13 @@
 # kubernetes-data-science
 Deploys a data science tool suite to a local Kubernetes distributed compute cluster.
 
-Tool Suite:
+### Tool Suite:
   - Apache Spark
   - Jupyterlab notebook interface
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
-Tool Suite Add-ons:
+### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
   - DataComPy: Prints out a human-readable report summarizing and sampling differences between two pandas dataframes.
   - DataCompareR: Compare two R datasets and view a report on the similarities and differences.
@@ -15,18 +15,18 @@ Tool Suite Add-ons:
   - Synthetic-data: Sample data generation (https://github.com/capitalone/synthetic-data)
   - Jupyterlab templates: (https://github.com/jpmorganchase/jupyterlab_templates)
 
-# Kubeflow (K3ai) Add-ons:
-argo-workflow                  Argo Workflow plugin
-h2o-single                     H2O.ai
-jupyter-minimal                Minimal Jupyter Configuration
-katib                          Kubeflow Katib
-kf-pipelines-tekton            Kubeflow Pipelines based on Tekton
-kubeflow-pipelines             Kubeflow Pipelines platform agnostic
-mpi-op                         MPI-Operator
-nvidia-gpu                     Nvidia GPU support
-pytorch-op                     Pytorch op
-tekton                         Kubeflow Pipelines based on Tekton
-tensorflow-op                  Kubeflow Tensorflow
+### Kubeflow (K3ai) Add-ons:
+- argo-workflow                  Argo Workflow plugin
+- h2o-single                     H2O.ai
+- jupyter-minimal                Minimal Jupyter Configuration
+- katib                          Kubeflow Katib
+- kf-pipelines-tekton            Kubeflow Pipelines based on Tekton
+- kubeflow-pipelines             Kubeflow Pipelines platform agnostic
+- mpi-op                         MPI-Operator
+- nvidia-gpu                     Nvidia GPU support
+- pytorch-op                     Pytorch op
+- tekton                         Kubeflow Pipelines based on Tekton
+- tensorflow-op                  Kubeflow Tensorflow
 
 #
 
