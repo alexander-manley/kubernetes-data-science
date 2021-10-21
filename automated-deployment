@@ -1,6 +1,7 @@
 #Golang installer:
 Invoke-WebRequest -Uri "https://get-win.k3ai.in" -OutFile k3ai.zip
 Expand-Archive -Path .\k3ai.zip
+k3ai.exe -h
 
 #Helm Chart:
 #helm install kubernetes-data-science kubernetes-data-science.tgz --set service.type=NodePort
