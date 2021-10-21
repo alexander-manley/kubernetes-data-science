@@ -1,1 +1,3 @@
-helm install kubernetes-data-science kubernetes-data-science.tgz --set service.type=NodePort
+Invoke-WebRequest -Uri "https://get-win.k3ai.in" -OutFile k3ai.zip
+# Expand-Archive -Path .\k3ai.zip
+#helm install kubernetes-data-science kubernetes-data-science.tgz --set service.type=NodePort
