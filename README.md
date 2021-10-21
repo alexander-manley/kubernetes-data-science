@@ -15,6 +15,18 @@ Tool Suite Add-ons:
   - Synthetic-data: Sample data generation (https://github.com/capitalone/synthetic-data)
   - Jupyterlab templates: (https://github.com/jpmorganchase/jupyterlab_templates)
 
+# Kubeflow (K3ai) Add-ons:
+argo-workflow                  Argo Workflow plugin
+h2o-single                     H2O.ai
+jupyter-minimal                Minimal Jupyter Configuration
+katib                          Kubeflow Katib
+kf-pipelines-tekton            Kubeflow Pipelines based on Tekton
+kubeflow-pipelines             Kubeflow Pipelines platform agnostic
+mpi-op                         MPI-Operator
+nvidia-gpu                     Nvidia GPU support
+pytorch-op                     Pytorch op
+tekton                         Kubeflow Pipelines based on Tekton
+tensorflow-op                  Kubeflow Tensorflow
 
 #
 
