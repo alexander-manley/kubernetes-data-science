@@ -1,3 +1,8 @@
+#Golang CLI Binary: https://github.com/kf5i/k3ai-core/releases
+#Manage custom Add-Ons
+Expand-Archive -Path .\k3ai.zip
+.\k3ai.exe -h
+
 #Install Kustomize in WSL
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 
@@ -11,10 +16,10 @@ kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/cluster-scop
 kubectl wait --for condition=established --timeout=60s crd/applications.app.k8s.io
 kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/env/platform-agnostic-pns?ref=$PIPELINE_VERSION"
 
-#Golang CLI Binary: https://github.com/kf5i/k3ai-core/releases
-#Manage custom Add-Ons
-Expand-Archive -Path .\k3ai.zip
-.\k3ai.exe -h
+kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
+
+
+
 
 #Helm Chart:
 helm install kubernetes-data-science kubernetes-data-science.tgz --set service.type=NodePort
