@@ -90,6 +90,8 @@ Deploys a data science tool suite to a local Kubernetes distributed compute clus
 
 ![spark-3 2-shell](https://user-images.githubusercontent.com/4974054/137662534-52214316-d289-43ad-968f-f14aa342d52d.jpg)
 
+![kubeflow](https://user-images.githubusercontent.com/4974054/138380876-38345266-c31b-4c32-8eb0-3f22d84f03e8.jpg)
+
 ![kubernetes](https://user-images.githubusercontent.com/4974054/137600230-bb56dd0c-060f-4b01-b086-ed034d86c851.jpg)
 
 ![spark-kubernetes-notebook-images](https://user-images.githubusercontent.com/4974054/137789727-582313c0-df04-4776-aa6f-340363e7631a.jpg)
