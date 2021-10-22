@@ -2,7 +2,8 @@
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 
 #Install Kubeflow
-while ! kustomize build example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 10; done
+while ! ../../kustomize build example | kubectl apply -f -;
+do echo "Retrying to apply resources"; sleep 10; done
 
 #Golang CLI Binary: https://github.com/kf5i/k3ai-core/releases
 #Manage custom Add-Ons
