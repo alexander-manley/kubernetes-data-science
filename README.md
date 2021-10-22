@@ -28,7 +28,7 @@ Deploys a data science tool suite to a local Kubernetes distributed compute clus
 - tekton:                         Kubeflow Pipelines based on Tekton
 - tensorflow-op:                  Kubeflow Tensorflow
 
-### Pipeline integration:
+### Pipeline Integration:
 
 - Apache Airflow
 - Luigi
