@@ -1,9 +1,15 @@
 #Install Kustomize in WSL
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 
-#Install Kubeflow
-while ! ../../kustomize build example | kubectl apply -f -;
-do echo "Retrying to apply resources"; sleep 10; done
+#Install Kubeflow Linux
+#while ! ../../kustomize build example | kubectl apply -f -;
+#do echo "Retrying to apply resources"; sleep 10; done
+
+#Install Kubeflow Windows
+set PIPELINE_VERSION=1.7.0
+kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/cluster-scoped-resources?ref=$PIPELINE_VERSION"
+kubectl wait --for condition=established --timeout=60s crd/applications.app.k8s.io
+kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/env/platform-agnostic-pns?ref=$PIPELINE_VERSION"
 
 #Golang CLI Binary: https://github.com/kf5i/k3ai-core/releases
 #Manage custom Add-Ons
