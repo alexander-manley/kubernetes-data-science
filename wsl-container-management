@@ -1,0 +1,26 @@
+#In WSL use nerdctl and podman for OCI container & image management
+
+#Upgrade distro and install RedHat's Podman (requires Ubuntu 20.10+)
+sudo lsb_release -a
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt autoremove -y
+/etc/update-manager/release-upgrades set to normal
+apt purge snapd -y
+sudo do-release-upgrade -d
+(or depending on release schedule without the -d) sudo do-release-upgrade
+
+sudo apt-get -y update
+sudo apt-get -y install podman
+sudo vim /etc/containers/registries.conf
+  unqualified-search-registries=["docker.io"]
+
+podman pull x/x:tag
+podman load < image.tar.gz
+podman images
+podman run -p n:n -d x/x ...
+podman ps -a
+podman tag xxxxxxxxxxxx registry.gitlab.com/kubernetes-data-science/kubernetes-x
+podman login -u adress@gmail.com registry.gitlab.com
+podman push registry.gitlab.com/kubernetes-data-science/kubernetes-x/x
