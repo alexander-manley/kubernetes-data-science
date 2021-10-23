@@ -1,3 +1,6 @@
+#podman build --build-arg dssVersion=9.0.5
+#https://cdn.downloads.dataiku.com/public/studio/
+
 FROM centos:7
 
 ARG dssVersion
