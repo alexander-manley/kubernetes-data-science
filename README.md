@@ -17,9 +17,12 @@ https://cloud.okteto.com/
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
-### Dataiku Data Science Studio (DSS)
+### Dataiku Data Science Studio (DSS):
+  - Free edition
+  - Data preparation and model management
 
 ### RAPIDS/DASK Distributed Machine Learning
+  - Distributed python clustering and regression algorithms
 
 ### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
