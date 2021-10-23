@@ -21,7 +21,7 @@ https://cloud.okteto.com/
   - Free edition
   - Data preparation and model management
 
-### RAPIDS/DASK Distributed Machine Learning
+### RAPIDS/DASK Distributed Machine Learning:
   - Distributed python clustering and regression algorithms
 
 ### Tool Suite Add-ons:
