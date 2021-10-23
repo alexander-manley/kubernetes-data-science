@@ -4,9 +4,12 @@ Deploys a data science tool suite to a local Kubernetes distributed compute clus
 Each component dependency is pulled from each respective upstream project and/or docker repository, and no upstream code is ever modified. Different industries and user roles have varied needs; as such the platform is fully customizable in that analytic containers can be added, removed, or rolled back to earlier versions depending on host infrastructure and the applicable template.
 
 Use on-prem Kubernetes or Okteto Cloud: Managed Kubernetes service designed for developers. Free developer accounts come with 8GB of RAM, 4 CPUs and 5GB Disk space. The apps sleep after 24 hours of inactivity. You have access to a single namespace.
+
 Details: https://okteto.com/docs/cloud
+
 Requirements: a Github account is required for signing up.
-Link: https://cloud.okteto.com/
+
+https://cloud.okteto.com/
 
 ### Tool Suite:
   - Apache Spark
