@@ -1,0 +1,14 @@
+kubectl create deployment --image=dataiku/dss dss
+
+kubectl get deployments
+
+kubectl get pods
+
+kubectl logs -f dss-xxxx-xxxx
+
+kubectl expose deployment dss --port=10000 --name=dss-http
+
+kubectl port-forward dss-xxxx-xxxx 10000:10000
+
+#Login to configure
+kubectl exec --stdin --tty dss-xxxx-xxxx -- /bin/bash
