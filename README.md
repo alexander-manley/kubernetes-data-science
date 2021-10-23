@@ -11,7 +11,7 @@ Requirements: a Github account is required for signing up.
 
 https://cloud.okteto.com/
 
-### Tool Suite:
+### Jupyter-Spark Tool Suite:
   - Apache Spark
   - Jupyterlab notebook interface
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
