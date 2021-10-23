@@ -17,6 +17,10 @@ https://cloud.okteto.com/
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+### Dataiku Data Science Studio (DSS)
+
+### RAPIDS/DASK Distributed Machine Learning
+
 ### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
   - DataComPy: Prints out a human-readable report summarizing and sampling differences between two pandas dataframes.
