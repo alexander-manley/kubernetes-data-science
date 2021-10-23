@@ -1,6 +1,7 @@
 # Dask/Rapids tool suite deployment
+# https://hub.docker.com/r/rapidsai/rapidsai-dev/tags or rapidsai/rapidsai/tags
 
-kubectl create deployment --image=rapidsai/rapidsai-dev:21.10-cuda11.2-devel-ubuntu20.04-py3.8 kubernetes-dask-rapids
+kubectl create deployment --image=rapidsai/rapidsai-dev:rapidsai/rapidsai:21.10-cuda11.4-runtime-ubuntu20.04-py3.8 kubernetes-dask-rapids
 
 kubectl get deployments
 
@@ -10,7 +11,8 @@ kubectl logs -f kubernetes-dask-rapids
 
 kubectl expose deployment kubernetes-dask-rapids --port=80 --name=kubernetes-gitlab-http
 
-kubectl port-forward kubernetes-dask-rapids-xxxx-xxxx 80:80
+kubectl port-forward kubernetes-dask-rapids-xxxx-xxxx 8080:8080
 
 #Login to configure
 kubectl exec --stdin --tty kubernetes-dask-rapids-xxxx-xxxx -- /bin/bash
+
