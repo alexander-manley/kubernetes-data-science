@@ -7,9 +7,12 @@ Use on-prem Kubernetes or Okteto Cloud: Managed Kubernetes service designed for 
 
 Details: https://okteto.com/docs/cloud
 
-Requirements: a Github account is required for signing up.
+Github account is required for signing up.
 
-https://cloud.okteto.com/
+Launch the kubernetes-data-science platform environment:
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
+
 
 ### Jupyter-Spark Tool Suite:
   - Apache Spark
