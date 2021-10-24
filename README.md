@@ -37,7 +37,7 @@ Launch, startup can take up to 10 minutes:
 ### RAPIDS/DASK Distributed Machine Learning:
   - Distributed python clustering and regression algorithms
 
-Launch, startup can take up to 10 minutes:
+Launch, startup can take up to 10 minutes, requires account upgrade for sufficient compute resource allocation:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dask-rapids-launcher)
 
