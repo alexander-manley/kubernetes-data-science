@@ -1,1 +1,24 @@
 #JupyterLab interfaced with Apache Spark
+#Legacy Spark 3.1.2
+kubectl create deployment --image=jupyter/all-spark-notebook kubernetes-data-science
+
+#Spark 3.2 with Python Pandas API
+kubectl create deployment --image=registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-containers/kubernetes-data-science:latest kubernetes-data-science
+
+#Spark 3.2 with Python Pandas API and R Statistics
+kubectl create deployment --image=registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-spark/kubernetes-data-science-spark:latest kubernetes-data-science-spark
+
+kubectl get deployments
+
+kubectl get pods
+
+kubectl logs -f kubernetes-data-science-spark-xxxx-xxxx
+
+kubectl expose deployment kubernetes-data-science-spark --port=8888 --name=kubernetes-data-science-spark-http
+
+kubectl port-forward kubernetes-data-science-spark-xxxx-xxxx 8888:8888
+
+#Terminal login
+kubectl exec --stdin --tty kubernetes-data-science-spark-xxxx-xxxx -- /bin/bash
+
+kubectl delete deployment kubernetes-data-science-spark-xxxx-xxxx
