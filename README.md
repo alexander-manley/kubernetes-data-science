@@ -24,8 +24,14 @@ Launch the kubernetes-data-science platform environment:
   - Free edition
   - Data preparation and model management
 
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-dss)
+
+
 ### RAPIDS/DASK Distributed Machine Learning:
   - Distributed python clustering and regression algorithms
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-rapids)
+
 
 ### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
