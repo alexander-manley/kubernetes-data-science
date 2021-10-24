@@ -10,6 +10,9 @@ Launch the kubernetes-data-science platform environment:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
 
+#
+
+![kubernetes-datascience-launcher](https://user-images.githubusercontent.com/4974054/138598007-ecfa1e11-0418-45a2-b3ad-4027995eb406.jpg)
 
 ### Jupyter-Spark Tool Suite:
   - Apache Spark
