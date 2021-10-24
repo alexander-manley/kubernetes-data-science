@@ -20,6 +20,8 @@ Launch the kubernetes-data-science platform environment, startup can take up to 
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+Launch, startup can take up to 10 minutes:
+
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
 
 
@@ -27,11 +29,15 @@ Launch the kubernetes-data-science platform environment, startup can take up to 
   - Free edition
   - Data preparation and model management
 
+Launch, startup can take up to 10 minutes:
+
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dataiku-dss-launcher)
 
 
 ### RAPIDS/DASK Distributed Machine Learning:
   - Distributed python clustering and regression algorithms
+
+Launch, startup can take up to 10 minutes:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dask-rapids-launcher)
 
