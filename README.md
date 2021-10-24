@@ -33,7 +33,7 @@ Launch the kubernetes-data-science platform environment:
 ### RAPIDS/DASK Distributed Machine Learning:
   - Distributed python clustering and regression algorithms
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-rapids)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dask-rapids-launcher)
 
 
 ### Tool Suite Add-ons:
