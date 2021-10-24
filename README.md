@@ -20,6 +20,9 @@ Launch the kubernetes-data-science platform environment:
   - Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
   - R statistics
 
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
+
+
 ### Dataiku Data Science Studio (DSS):
   - Free edition
   - Data preparation and model management
