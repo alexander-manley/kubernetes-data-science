@@ -27,7 +27,7 @@ Launch the kubernetes-data-science platform environment:
   - Free edition
   - Data preparation and model management
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-dss)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dataiku-dss-launcher)
 
 
 ### RAPIDS/DASK Distributed Machine Learning:
