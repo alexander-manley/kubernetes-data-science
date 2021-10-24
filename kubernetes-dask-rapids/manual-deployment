@@ -9,7 +9,7 @@ kubectl get pods
 
 kubectl logs -f kubernetes-dask-rapids
 
-kubectl expose deployment kubernetes-dask-rapids --port=80 --name=kubernetes-gitlab-http
+kubectl expose deployment kubernetes-dask-rapids --port=80 --name=kubernetes-dask-rapids-http
 
 kubectl port-forward kubernetes-dask-rapids-xxxx-xxxx 8080:8080
 
