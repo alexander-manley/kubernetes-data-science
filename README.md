@@ -6,7 +6,7 @@ Each component dependency is pulled from each respective upstream project and/or
 Use on-prem Kubernetes or Okteto Cloud: Managed Kubernetes service designed for developers. Free developer accounts come with 8GB of RAM, 4 CPUs and 5GB Disk space. The apps sleep after 24 hours of inactivity.
 Details: https://okteto.com/docs/cloud
 
-Launch the kubernetes-data-science platform environment:
+Launch the kubernetes-data-science platform environment, startup can take up to 10 minutes:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
 
