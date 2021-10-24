@@ -41,6 +41,9 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dask-rapids-launcher)
 
+### Tensorflow Notebook
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/charts/tensorflow-notebook)
 
 ### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
