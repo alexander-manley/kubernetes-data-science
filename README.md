@@ -7,9 +7,8 @@ Use on-prem Kubernetes or Okteto Cloud: Managed Kubernetes service designed for 
 Details: https://okteto.com/docs/cloud
 
 #
-
 ![kubernetes-datascience-launcher](https://user-images.githubusercontent.com/4974054/138598007-ecfa1e11-0418-45a2-b3ad-4027995eb406.jpg)
-
+#
 ### R Spreadsheet Analytics (Jamovi):
 
   - Opensource alternative to SPSS, MATLAB, Statistica, and SAS.
