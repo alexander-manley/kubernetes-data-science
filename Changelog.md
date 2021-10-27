@@ -7,13 +7,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 Develop on Okteto
 
 Jupyter-Spark Tool Suite:
-Apache Spark
-Jupyterlab notebook interface
-Python interpreter with Pandas, Scikit-learn, Matplotlib, and Statsmodels
-R statistics
 
 Dataiku Data Science Studio (DSS): Free edition
-Data preparation and model management
 
 RAPIDS/DASK Distributed Machine Learning
 
