@@ -4,18 +4,24 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [0.0.0] -- 2021-10-26
 ### Added
-Develop on Okteto
+- Develop on Okteto
 
-Jupyter-Spark Tool Suite:
+- Jupyter-Spark Tool Suite
 
-Dataiku Data Science Studio (DSS): Free edition
+- Dataiku Data Science Studio (DSS): Free edition
 
-RAPIDS/DASK Distributed Machine Learning
+- RAPIDS/DASK Distributed Machine Learning
 
-Tensorflow Notebook
+- Tensorflow Notebook
 
 ### Fixed 
 N/A
 
 ### Changed 
+N/A
+
+## Deprecated
+N/A
+
+## Removed
 N/A
