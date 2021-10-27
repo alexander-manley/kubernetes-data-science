@@ -6,10 +6,6 @@ Each component dependency is pulled from each respective upstream project and/or
 Use on-prem Kubernetes or Okteto Cloud: Managed Kubernetes service designed for developers. Free developer accounts. The apps sleep after 24 hours of inactivity.
 Details: https://okteto.com/docs/cloud
 
-Launch the kubernetes-data-science platform environment, startup can take up to 10 minutes:
-
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
-
 #
 
 ![kubernetes-datascience-launcher](https://user-images.githubusercontent.com/4974054/138598007-ecfa1e11-0418-45a2-b3ad-4027995eb406.jpg)
@@ -23,6 +19,12 @@ Launch the kubernetes-data-science platform environment, startup can take up to 
 Launch, startup can take up to 10 minutes:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
+
+### R Spreadsheet Analytics (Jamovi):
+
+  - Opensource alternative to SPSS, MATLAB, Statistica, and SAS.
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-jamovi-launcher)
 
 
 ### Dataiku Data Science Studio (DSS):
@@ -48,12 +50,7 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-tensorflow-launcher)
 
-### R Analytics (Jamovi):
-
-  - Opensource alternative to SPSS, MATLAB, Statistica, and SAS.
-
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-jamovi-launcher)
-
+#
 
 ### Tool Suite Add-ons:
   - DataProfiler: Sensitive data detection, equiped with a pre-trained deep learning model identify sensitive data (PII / NPI).
