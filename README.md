@@ -10,6 +10,14 @@ Details: https://okteto.com/docs/cloud
 
 ![kubernetes-datascience-launcher](https://user-images.githubusercontent.com/4974054/138598007-ecfa1e11-0418-45a2-b3ad-4027995eb406.jpg)
 
+### R Spreadsheet Analytics (Jamovi):
+
+  - Opensource alternative to SPSS, MATLAB, Statistica, and SAS.
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-jamovi-launcher)
+
+#
+
 ### Jupyter-Spark Tool Suite:
   - Apache Spark
   - Jupyterlab notebook interface
@@ -20,12 +28,7 @@ Launch, startup can take up to 10 minutes:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-datascience-launcher)
 
-### R Spreadsheet Analytics (Jamovi):
-
-  - Opensource alternative to SPSS, MATLAB, Statistica, and SAS.
-
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-jamovi-launcher)
-
+#
 
 ### Dataiku Data Science Studio (DSS):
   - Free edition
@@ -35,6 +38,7 @@ Launch, startup can take up to 10 minutes:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dataiku-dss-launcher)
 
+#
 
 ### RAPIDS/DASK Distributed Machine Learning:
 
@@ -43,6 +47,8 @@ Launch, startup can take up to 10 minutes:
 Launch, startup can take up to 10 minutes, requires account upgrade for sufficient compute resource allocation:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-data-science-dask-rapids-launcher)
+
+#
 
 ### Tensorflow Notebook:
 
