@@ -51,6 +51,19 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 #
 
+### MLFlow:
+
+- Tracking experiments to record and compare parameters and results (MLflow Tracking).
+
+- Packaging ML code in a reusable, reproducible form in order to share with other data scientists or transfer to production (MLflow Projects).
+
+- Managing and deploying models from a variety of ML libraries to a variety of model serving and inference platforms (MLflow Models).
+
+- Providing a central model store to collaboratively manage the full lifecycle of an MLflow Model, including model versioning, stage transitions, and annotations (MLflow Model Registry).
+
+[![Launch Gitlab Now](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-mlflow-launcher)
+
+
 ### Tensorflow Notebook:
 
   - Training and inference of deep neural networks
