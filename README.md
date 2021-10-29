@@ -73,7 +73,7 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 #
 
-### TBD:
+### Additional Opensource ML Platforms:
 
 Generic Kubeflow via Kustomize manifests: https://github.com/kubeflow/manifests
 
@@ -83,14 +83,14 @@ DVC: https://github.com/iterative/dvc
 
 ClearML: https://github.com/allegroai/clearml/
 
-Guild AI: https://my.guild.ai/t/get-started-with-guild-ai/35
+Guild AI: https://github.com/guildai/guildai
 
 Sacred: https://github.com/IDSIA/sacred
 
 Tensorboard: https://github.com/tensorflow/tensorboard
 
 
-### SaaS enterprise alternatives:
+### SaaS Enterprise Alternatives:
 
 AWS Sagemaker
 
