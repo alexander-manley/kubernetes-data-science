@@ -73,18 +73,31 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 #
 
-TBD:
-MLFlow:
-Polyaxon:
-ClearML: https://github.com/allegroai/clearml/
-Guild AI: https://my.guild.ai/t/get-started-with-guild-ai/35
-Sacred:
-Tensorboard:
+### TBD:
 
-SaaS alternatives:
+Generic Kubeflow via Kustomize manifests: https://github.com/kubeflow/manifests
+
+Polyaxon: https://github.com/polyaxon/polyaxon
+
+DVC: https://github.com/iterative/dvc
+
+ClearML: https://github.com/allegroai/clearml/
+
+Guild AI: https://my.guild.ai/t/get-started-with-guild-ai/35
+
+Sacred: https://github.com/IDSIA/sacred
+
+Tensorboard: https://github.com/tensorflow/tensorboard
+
+
+### SaaS alternatives:
+
 Neptune AI (Warsaw)
+
 Comet (Tel Aviv, NY)
+
 Pachyderm (San Francisco)
+
 Weights & Biases (San Francsico)
 
 #
