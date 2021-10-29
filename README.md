@@ -162,7 +162,7 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 ![kubeflow](https://user-images.githubusercontent.com/4974054/138380876-38345266-c31b-4c32-8eb0-3f22d84f03e8.jpg)
 
-## K3S Kubernetes Image Management
+## K3S Kubernetes Container Image Management
 
 ![kubernetes](https://user-images.githubusercontent.com/4974054/137600230-bb56dd0c-060f-4b01-b086-ed034d86c851.jpg)
 
