@@ -90,7 +90,13 @@ Sacred: https://github.com/IDSIA/sacred
 Tensorboard: https://github.com/tensorflow/tensorboard
 
 
-### SaaS alternatives:
+### SaaS enterprise alternatives:
+
+AWS Sagemaker
+
+Azure ML Studio
+
+Google Vertex AI
 
 Neptune AI (Warsaw)
 
