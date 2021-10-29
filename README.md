@@ -115,6 +115,8 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 - Dataset clean-up and type conversion
 - Lifecycle management (https://github.com/mlflow/mlflow/releases)
 
+![kubeflow-katib](https://user-images.githubusercontent.com/4974054/139364088-afbfed2f-35a9-40a7-a41c-ee0ccc289b88.jpg)
+
 ### Opensource Analytics on Apache Spark:
 (https://spark.apache.org/docs/latest/ml-statistics.html)
 - Collinearity and covariance
