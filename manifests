@@ -1,0 +1,52 @@
+kustomize build common/cert-manager/cert-manager/base | kubectl apply -f -
+kustomize build common/cert-manager/kubeflow-issuer/base | kubectl apply -f -
+kustomize build common/istio-1-9/istio-crds/base | kubectl apply -f -
+kustomize build common/istio-1-9/istio-namespace/base | kubectl apply -f -
+kustomize build common/istio-1-9/istio-install/base | kubectl apply -f -
+kustomize build common/dex/overlays/istio | kubectl apply -f -
+kustomize build common/oidc-authservice/base | kubectl apply -f -
+kustomize build common/knative/knative-serving/base | kubectl apply -f -
+kustomize build common/istio-1-9/cluster-local-gateway/base | kubectl apply -f -
+kustomize build common/knative/knative-eventing/base | kubectl apply -f -
+kustomize build common/kubeflow-namespace/base | kubectl apply -f -
+kustomize build common/kubeflow-roles/base | kubectl apply -f -
+kustomize build common/istio-1-9/kubeflow-istio-resources/base | kubectl apply -f -
+kustomize build apps/pipeline/upstream/env/platform-agnostic-multi-user-pns | kubectl apply -f -
+kustomize build apps/kfserving/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build apps/katib/upstream/installs/katib-with-kubeflow | kubectl apply -f -
+kustomize build apps/centraldashboard/upstream/overlays/istio | kubectl apply -f -
+kustomize build apps/admission-webhook/upstream/overlays/cert-manager | kubectl apply -f -
+kustomize build apps/jupyter/notebook-controller/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build apps/jupyter/jupyter-web-app/upstream/overlays/istio | kubectl apply -f -
+kustomize build apps/profiles/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build apps/volumes-web-app/upstream/overlays/istio | kubectl apply -f -
+kustomize build apps/tensorboard/tensorboards-web-app/upstream/overlays/istio | kubectl apply -f -
+kustomize build apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build apps/training-operator/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build apps/mpi-job/upstream/overlays/kubeflow | kubectl apply -f -
+kustomize build common/user-namespace/base | kubectl apply -f -
+
+
+kubectl get pods -n cert-manager
+kubectl get pods -n istio-system
+kubectl get pods -n auth
+kubectl get pods -n knative-eventing
+kubectl get pods -n knative-serving
+kubectl get pods -n kubeflow
+kubectl get pods -n kubeflow-user-example-com
+
+
+kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
+
+Defaults:
+user@example.com
+12341234
+
+python3 -c 'from passlib.hash import bcrypt; import getpass; print(bcrypt.using(rounds=12, ident="2y").hash(getpass.getpass()))'
+vi dex/base/config-map.yaml
+
+
+...
+  staticPasswords:
+  - email: user@example.com
+    hash: <enter the generated hash here>
