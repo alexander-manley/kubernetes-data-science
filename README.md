@@ -61,7 +61,7 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 - Provide a central model store to collaboratively manage the full lifecycle of an MLflow Model, including model versioning, stage transitions, and annotations (MLflow Model Registry).
 
-[![Launch Gitlab Now](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-mlflow-launcher)
+[![Launch MLFlow Now](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-mlflow-launcher)
 
 #
 
@@ -70,6 +70,22 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
   - Training and inference of deep neural networks
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-tensorflow-launcher)
+
+#
+
+TBD:
+MLFlow:
+Polyaxon:
+ClearML: https://github.com/allegroai/clearml/
+Guild AI: https://my.guild.ai/t/get-started-with-guild-ai/35
+Sacred:
+Tensorboard:
+
+SaaS alternatives:
+Neptune AI (Warsaw)
+Comet (Tel Aviv, NY)
+Pachyderm (San Francisco)
+Weights & Biases (San Francsico)
 
 #
 
