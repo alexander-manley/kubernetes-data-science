@@ -75,6 +75,8 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 
 ### Additional Opensource ML Platforms:
 
+Seldon: https://github.com/SeldonIO/seldon-core
+
 Generic Kubeflow via Kustomize manifests: https://github.com/kubeflow/manifests
 
 Polyaxon: https://github.com/polyaxon/polyaxon
