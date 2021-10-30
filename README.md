@@ -76,6 +76,7 @@ Launch, startup can take up to 10 minutes, requires account upgrade for sufficie
 ### Additional Opensource ML Platforms:
 
 Seldon: https://github.com/SeldonIO/seldon-core
+(https://github.com/SeldonIO/seldon-core/tree/master/helm-charts/seldon-core-operator)
 
 Generic Kubeflow via Kustomize manifests: https://github.com/kubeflow/manifests
 
