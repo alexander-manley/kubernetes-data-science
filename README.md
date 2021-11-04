@@ -141,6 +141,8 @@ Weights & Biases (San Francsico)
 - KubeFlow
 - MLFlow
 
+- Modin backend: https://github.com/ray-project/ray
+
 #
 
 ### Machine Learning Operations (MLOps):
